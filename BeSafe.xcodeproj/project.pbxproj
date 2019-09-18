@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77764304233204190000E3AD /* police_stations.json in Resources */ = {isa = PBXBuildFile; fileRef = 77764303233204190000E3AD /* police_stations.json */; };
+		777643062332044C0000E3AD /* crime.csv in Resources */ = {isa = PBXBuildFile; fileRef = 777643052332044C0000E3AD /* crime.csv */; };
 		77A289B322D269CE00779FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A289B222D269CE00779FD7 /* AppDelegate.swift */; };
 		77A289B522D269CE00779FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A289B422D269CE00779FD7 /* ViewController.swift */; };
 		77A289B822D269CE00779FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A289B622D269CE00779FD7 /* Main.storyboard */; };
 		77A289BA22D269CE00779FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A289B922D269CE00779FD7 /* Assets.xcassets */; };
 		77A289BD22D269CE00779FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A289BB22D269CE00779FD7 /* LaunchScreen.storyboard */; };
-		77A289C822D269CF00779FD7 /* BeSafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A289C722D269CF00779FD7 /* BeSafeTests.swift */; };
-		77A289D322D269CF00779FD7 /* BeSafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A289D222D269CF00779FD7 /* BeSafeUITests.swift */; };
+		77A289ED22D279B300779FD7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A289EC22D279B300779FD7 /* SecondViewController.swift */; };
+		9F48872351EFD8B631C17F9A /* libPods-BeSafe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 730E0EDD6D2F3E7040E2CA05 /* libPods-BeSafe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		77A289AF22D269CE00779FD7 /* BeSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7D8E0A9307F764752A9B98 /* Pods-BeSafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeSafe.release.xcconfig"; path = "Target Support Files/Pods-BeSafe/Pods-BeSafe.release.xcconfig"; sourceTree = "<group>"; };
+		730E0EDD6D2F3E7040E2CA05 /* libPods-BeSafe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeSafe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77764303233204190000E3AD /* police_stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = police_stations.json; sourceTree = "<group>"; };
+		777643052332044C0000E3AD /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		77A289B222D269CE00779FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77A289B422D269CE00779FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77A289B722D269CE00779FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77A289B922D269CE00779FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77A289BC22D269CE00779FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77A289BE22D269CE00779FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77A289C322D269CE00779FD7 /* BeSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77A289C722D269CF00779FD7 /* BeSafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeSafeTests.swift; sourceTree = "<group>"; };
-		77A289C922D269CF00779FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77A289CE22D269CF00779FD7 /* BeSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77A289D222D269CF00779FD7 /* BeSafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeSafeUITests.swift; sourceTree = "<group>"; };
-		77A289D422D269CF00779FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A289E922D26E0800779FD7 /* BeSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A289EA22D26E0800779FD7 /* BeSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A289EB22D26E0800779FD7 /* BeSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A289EC22D279B300779FD7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		77A289F122D2CD1100779FD7 /* marker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marker.h; sourceTree = "<group>"; };
+		77A289F222D2CD8500779FD7 /* BeSafe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeSafe-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDE3A77C0A05AC8ED4A5E542 /* Pods-BeSafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeSafe.debug.xcconfig"; path = "Target Support Files/Pods-BeSafe/Pods-BeSafe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F48872351EFD8B631C17F9A /* libPods-BeSafe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,51 +85,47 @@
 			isa = PBXGroup;
 			children = (
 				77A289B122D269CE00779FD7 /* BeSafe */,
-				77A289C622D269CF00779FD7 /* BeSafeTests */,
-				77A289D122D269CF00779FD7 /* BeSafeUITests */,
-				77A289B022D269CE00779FD7 /* Products */,
+				BB18A6358CCAC52C272083BD /* Pods */,
+				77A289E922D26E0800779FD7 /* BeSafe.app */,
+				77A289EA22D26E0800779FD7 /* BeSafeTests.xctest */,
+				77A289EB22D26E0800779FD7 /* BeSafeUITests.xctest */,
+				EE14FCD6FF257BF25FE3F6E9 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		77A289B022D269CE00779FD7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				77A289AF22D269CE00779FD7 /* BeSafe.app */,
-				77A289C322D269CE00779FD7 /* BeSafeTests.xctest */,
-				77A289CE22D269CF00779FD7 /* BeSafeUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		77A289B122D269CE00779FD7 /* BeSafe */ = {
 			isa = PBXGroup;
 			children = (
+				77764303233204190000E3AD /* police_stations.json */,
+				777643052332044C0000E3AD /* crime.csv */,
 				77A289B222D269CE00779FD7 /* AppDelegate.swift */,
 				77A289B422D269CE00779FD7 /* ViewController.swift */,
 				77A289B622D269CE00779FD7 /* Main.storyboard */,
 				77A289B922D269CE00779FD7 /* Assets.xcassets */,
 				77A289BB22D269CE00779FD7 /* LaunchScreen.storyboard */,
 				77A289BE22D269CE00779FD7 /* Info.plist */,
+				77A289EC22D279B300779FD7 /* SecondViewController.swift */,
+				77A289F122D2CD1100779FD7 /* marker.h */,
+				77A289F222D2CD8500779FD7 /* BeSafe-Bridging-Header.h */,
 			);
 			path = BeSafe;
 			sourceTree = "<group>";
 		};
-		77A289C622D269CF00779FD7 /* BeSafeTests */ = {
+		BB18A6358CCAC52C272083BD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				77A289C722D269CF00779FD7 /* BeSafeTests.swift */,
-				77A289C922D269CF00779FD7 /* Info.plist */,
+				FDE3A77C0A05AC8ED4A5E542 /* Pods-BeSafe.debug.xcconfig */,
+				2F7D8E0A9307F764752A9B98 /* Pods-BeSafe.release.xcconfig */,
 			);
-			path = BeSafeTests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		77A289D122D269CF00779FD7 /* BeSafeUITests */ = {
+		EE14FCD6FF257BF25FE3F6E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				77A289D222D269CF00779FD7 /* BeSafeUITests.swift */,
-				77A289D422D269CF00779FD7 /* Info.plist */,
+				730E0EDD6D2F3E7040E2CA05 /* libPods-BeSafe.a */,
 			);
-			path = BeSafeUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77A289D722D269CF00779FD7 /* Build configuration list for PBXNativeTarget "BeSafe" */;
 			buildPhases = (
+				BAA28567556586D14217BC01 /* [CP] Check Pods Manifest.lock */,
 				77A289AB22D269CE00779FD7 /* Sources */,
 				77A289AC22D269CE00779FD7 /* Frameworks */,
 				77A289AD22D269CE00779FD7 /* Resources */,
+				E59F9631170A0FF12B9D8319 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,7 +147,7 @@
 			);
 			name = BeSafe;
 			productName = BeSafe;
-			productReference = 77A289AF22D269CE00779FD7 /* BeSafe.app */;
+			productReference = 77A289E922D26E0800779FD7 /* BeSafe.app */;
 			productType = "com.apple.product-type.application";
 		};
 		77A289C222D269CE00779FD7 /* BeSafeTests */ = {
@@ -160,7 +165,7 @@
 			);
 			name = BeSafeTests;
 			productName = BeSafeTests;
-			productReference = 77A289C322D269CE00779FD7 /* BeSafeTests.xctest */;
+			productReference = 77A289EA22D26E0800779FD7 /* BeSafeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		77A289CD22D269CF00779FD7 /* BeSafeUITests */ = {
@@ -178,7 +183,7 @@
 			);
 			name = BeSafeUITests;
 			productName = BeSafeUITests;
-			productReference = 77A289CE22D269CF00779FD7 /* BeSafeUITests.xctest */;
+			productReference = 77A289EB22D26E0800779FD7 /* BeSafeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +198,7 @@
 				TargetAttributes = {
 					77A289AE22D269CE00779FD7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					77A289C222D269CE00779FD7 = {
@@ -216,7 +222,7 @@
 				Base,
 			);
 			mainGroup = 77A289A622D269CE00779FD7;
-			productRefGroup = 77A289B022D269CE00779FD7 /* Products */;
+			productRefGroup = 77A289A622D269CE00779FD7;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77764304233204190000E3AD /* police_stations.json in Resources */,
 				77A289BD22D269CE00779FD7 /* LaunchScreen.storyboard in Resources */,
+				777643062332044C0000E3AD /* crime.csv in Resources */,
 				77A289BA22D269CE00779FD7 /* Assets.xcassets in Resources */,
 				77A289B822D269CE00779FD7 /* Main.storyboard in Resources */,
 			);
@@ -254,11 +262,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BAA28567556586D14217BC01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeSafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59F9631170A0FF12B9D8319 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeSafe/Pods-BeSafe-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeSafe/Pods-BeSafe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77A289AB22D269CE00779FD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A289ED22D279B300779FD7 /* SecondViewController.swift in Sources */,
 				77A289B522D269CE00779FD7 /* ViewController.swift in Sources */,
 				77A289B322D269CE00779FD7 /* AppDelegate.swift in Sources */,
 			);
@@ -268,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A289C822D269CF00779FD7 /* BeSafeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A289D322D269CF00779FD7 /* BeSafeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +472,18 @@
 		};
 		77A289D822D269CF00779FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE3A77C0A05AC8ED4A5E542 /* Pods-BeSafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHS8FQSRST;
 				INFOPLIST_FILE = BeSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UTexas.BeSafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeSafe/BeSafe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +491,17 @@
 		};
 		77A289D922D269CF00779FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7D8E0A9307F764752A9B98 /* Pods-BeSafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHS8FQSRST;
 				INFOPLIST_FILE = BeSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UTexas.BeSafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeSafe/BeSafe-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

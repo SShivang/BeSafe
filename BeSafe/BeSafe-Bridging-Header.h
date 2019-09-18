@@ -10,4 +10,8 @@
 #define BeSafe_Bridging_Header_h
 
 
+#import <Google-Maps-iOS-Utils/GMUMarkerClustering.h>
+#import <Google-Maps-iOS-Utils/GMUHeatmapTileLayer.h>
+
+
 #endif /* BeSafe_Bridging_Header_h */
